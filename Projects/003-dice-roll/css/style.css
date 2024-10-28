@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: grid;
+    place-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+section {
+    text-align: center;
+    padding: 2em;
+
+}
+
+section h1 {
+    font-size: 2.5em;
+}
+section #dice {
+    font-size: 8em;
+}
+section button {
+    width: 6em;
+    height: 2em;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 0;
+    background-color: darkviolet;
+    color: white;
+    font-weight: 700;
+}
+ul {
+    margin-top: 2em;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0.0em 0.3em 0.2em 0.3em;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    margin-top: 0.5em
+}
+#liDice {
+    font-size: 2em;
+}
+
+
+.flip-horizontal-top {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
